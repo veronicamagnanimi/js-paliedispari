@@ -1,17 +1,21 @@
 //VERIFICARE SE LA PAROLA E' PALINDROMA
 //partiamo da una stringa
-//ci restituisce una stringa
+//continuiamo con la seconda stringa (invertita)
+//ci restituisce un booleano
 
-function èPalindroma(word) {
-let result = "";
-for(let i = 0; i < word.length; i++) {
-    let wordInverted = word[i];
-    if(i === 0) {
-        wordInverted = wordInverted.reverse();
+function reverseWord(word) {
+    let palindroma = '';
+    for(i = word.length - 1; i >= 0; i-- ) {
+        palindroma += word[i];
     }
-    result += wordInverted;
-} 
-return result;
+    return palindroma;
 }
 
-console.log(èPalindroma());
+/////////
+
+function palindromeCheck(word, invertedWord) {
+    let isPalindrome = false;
+    if (word === invertedWord) {
+        isPalindrome = true;
+    }
+}
