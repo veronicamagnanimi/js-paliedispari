@@ -2,13 +2,14 @@
 //DATI
 const evenOdd = prompt("Scegli se pari o dispari");
 const number = parseInt(prompt("Scegli un numero da 1 a 5"));  // --> da stringa a numero
-console.log(evenOdd, number);
+console.log(`L'utente ha scelto di essere ${evenOdd}`);
+console.log(`Il numero scelto è ${number}`);
 
 //Dato il numero random function, lo sommo al numero scelto dall'utente
 //ESECUZIONE LOGICA
-let randomInt;
-const sum = number + randomInt;
-console.log(sum);
+// let randomInt;
+let sum = number + result;
+console.log(`La somma dei due numeri è ${sum}`);
 
 
 
