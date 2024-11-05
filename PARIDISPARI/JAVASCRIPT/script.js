@@ -16,11 +16,18 @@ console.log(`La somma dei due numeri è ${sum}`);
 //Verifico se la somma del numero random e del numero scelto dall'utente è pari o dispari (funzione)
 console.log(`La somma dei due numeri è ${sumEvenOdd(sum)}`);
 
-//OUTPUT VINCITORE
+//OUTPUT VINCITORE 
+//Se il numero dell'utente è maggiore del numero random, vince l'utente
 let vincitore;
-if(number > randomNum) {
-    vincitore = `Vince il giocatore`
+if(number > result) {
+   vincitore = "Ha vinto il giocatore";
+} else if (number < result) {
+vincitore = "Ha vinto il computer";
+} else {
+    vincitore = "Pareggio!";
 }
+
+console.log(vincitore);
 
 
 

@@ -17,7 +17,8 @@ function sumEvenOdd(sum) {
     }
     return final;
 }
-console.log(`La somma dei due numeri è ${sumEvenOdd()}`);
+ 
+
 
 
 
