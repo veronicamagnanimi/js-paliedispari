@@ -4,8 +4,7 @@ function randomNum(min, max) {
   return randomInt;
 }
 
-
-//Test
+// //Test
 let result = randomNum (1, 5);
 console.log(`Il numero del computer è ${result}`);
 
@@ -14,7 +13,7 @@ console.log(`Il numero del computer è ${result}`);
 //Parto da un numero, mi restituisce una stringa
 function sumEvenOdd(sum) {
     let final = "";
-    if(result % 2 === 0) {
+    if(sum % 2 === 0) {
         final = "Pari";
     } else {
         final = "Dispari";
@@ -22,7 +21,8 @@ function sumEvenOdd(sum) {
     return final;
 }
 
- console.log(`La somma dei due numeri è ${sumEvenOdd()}`);
+
+
 
 
 

@@ -8,8 +8,18 @@ console.log(`Il numero scelto è ${number}`);
 //Dato il numero random function, lo sommo al numero scelto dall'utente
 //ESECUZIONE LOGICA
 // let randomInt;
+
 let sum = number + result;
 console.log(`La somma dei due numeri è ${sum}`);
+
+console.log(`La somma dei due numeri è ${sumEvenOdd()}`);
+
+//OUTPUT VINCITORE
+let vincitore;
+if(number > randomNum) {
+    vincitore = `Vince il giocatore`
+}
+
 
 
 
